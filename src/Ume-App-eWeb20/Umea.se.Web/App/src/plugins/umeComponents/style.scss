@@ -1,0 +1,101 @@
+@import '@/themes/variables.scss';
+
+.ume-input {
+	background-color: #f6f6f6;
+	border-radius: 4px 4px 0 0;
+	position: relative;
+
+	transition: all 0.2s ease;
+
+	:hover {
+		background-color: #eeeeee;
+	}
+	:focus-within,
+	:focus {
+		background-color: #dcdcdc;
+	}
+
+	input {
+		border-radius: 4px 4px 0 0;
+		padding: 14px 8px 14px;
+		flex: 1;
+		width: 100%;
+		outline: none;
+		height: 45px;
+		background-color: transparent;
+	}
+	.border-bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #a5a5a5;
+		height: 1px;
+		width: 100%;
+	}
+	.border-bottom::after {
+		position: absolute;
+		display: block;
+		content: ' ';
+		width: 0;
+		left: 50%;
+		height: 2px;
+		background-color: transparent;
+		transition: all ease 0.2s;
+	}
+	&:focus-within .border-bottom::after {
+		position: absolute;
+		display: block;
+		content: ' ';
+		width: 100%;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 2px;
+		background-color: $primary;
+	}
+
+	.append-inner-icon,
+	.prepend-inner-icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		pointer-events: none;
+
+		.v-icon {
+			color: $grey-darken-1;
+		}
+	}
+	.prepend-inner-icon {
+		right: auto;
+		left: 0;
+	}
+	&.append-inner-icon input {
+		padding-right: 40px;
+	}
+	&.prepend-inner-icon input {
+		padding-left: 40px;
+	}
+
+	&.variant-underlined {
+		background-color: transparent;
+
+		:hover,
+		:focus-within,
+		:focus {
+			background-color: transparent;
+		}
+	}
+
+	&.error {
+		&:focus-within .border-bottom::after,
+		.border-bottom {
+			background-color: $error;
+		}
+	}
+}

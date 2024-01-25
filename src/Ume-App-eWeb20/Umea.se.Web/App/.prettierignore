@@ -1,0 +1,19 @@
+node_modules
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML, css, svg, jpg, png, ico, txt files:
+*.html
+*.css
+*.svg
+*.jpg
+*.png
+*.ico
+*.txt
+
+.browserslistrc
+.env
+.eslintignore
+.gitignore
+.prettierignore

@@ -1,0 +1,1596 @@
+{
+	"app": {
+		"days": {
+			"day0": "Sunday",
+			"day1": "Monday",
+			"day2": "Tuesday",
+			"day3": "Wednesday",
+			"day4": "Thursday",
+			"day5": "Friday",
+			"day6": "Saturday"
+		},
+		"months": {
+			"month0": "january",
+			"month1": "february",
+			"month2": "mars",
+			"month3": "april",
+			"month4": "maj",
+			"month5": "june",
+			"month6": "july",
+			"month7": "august",
+			"month8": "september",
+			"month9": "oktober",
+			"month10": "november",
+			"month11": "december"
+		},
+		"title": "Umeå kommun",
+		"service": "E-services",
+		"nav": {
+			"previous": "Previous",
+			"next": "Next",
+			"cancel": "Cancel",
+			"send": "Send",
+			"testSend": "Test integrations",
+			"yes": "Yes",
+			"no": "No",
+			"back": "Back",
+			"start": "Start",
+			"startTest": "Start test",
+			"ok": "Ok",
+			"select": "Select",
+			"close": "Close",
+			"goToStart": "Go to start",
+			"and": "and",
+			"loading": "Loading",
+			"save": "Save",
+			"delete": "Delete",
+			"createNew": "Create new",
+			"open": "Open",
+			"openNewWindow": "Open in new window",
+			"mainMenu": "Main menu",
+			"navigation": "Navigation",
+			"skipToContent": "Skip to content",
+			"content": "Content",
+			"stepFeedback": "Step {currentStep} of {totalSteps}",
+			"reject": "Reject",
+			"accept": "Accept"
+		},
+		"auth": {
+			"logIn": "Log in",
+			"logOut": "Log out",
+			"loggedOutManual": "You have been logged out, see you another time!",
+			"loggedOutTokenError": "You have been logged out because of a technical problem!",
+			"loggedOutIdleTitle": "Logged out",
+			"loggedOutIdleText": "You have been logged out due to inactivity. Please log in to continue.",
+			"loggedOutExpiredSessionText": "Your login session has expired. Please login to continue.",
+			"loggingOut": "You will automatically be logged out due to inactivity in {time}. Cancel log out by moving the mouse or using the keyboard.",
+			"loggedInAs": "Logged in as",
+			"loggingOutDifferentLogin": "You are automatically logged out because this e-service has a different login."
+		},
+		"time": {
+			"second": "second | seconds",
+			"minute": "minute | minutes"
+		},
+		"validation": {
+			"optional": "Optional",
+			"messages": {
+				"_default": "{0} does not seem to be valid",
+				"required": "{0} is required, please enter a value",
+				"requiredOneOf": "You have to enter \"{0}\" or \"{1}\".",
+				"oneOrMoreIsChecked": "Please select one or more options for {0}",
+				"url": "Please enter a valid URL",
+				"min": "Please select at least one",
+				"formIsNotValid": "There is error in the form",
+				"previousStepIsNotValid": "Previos step has validation errors",
+				"errorOnPublish": "Cannot publish when e-service has error",
+				"emailComboboxItem": "The email field must be a valid email.",
+				"email": "The email field must be a valid email.",
+				"phonenumber": "Phone number field must be a valid phone number.",
+				"date_test": "Date uses the format YYYY-MM-DD",
+				"validDate": "Enter a correct date in the format YYYY-MM-DD.",
+				"validDateTime": "Enter a correct date in the format YYYY-MM-DD HH:MM.",
+				"invalidDate": "Enter a correct date in the format YYYY-MM-DD.",
+				"invalidDateTime": "Enter a correct date in the format YYYY-MM-DD HH:MM.",
+				"validNumber": "This field only allows numbers.",
+				"validNumberWithDecimals": "This field only allows numbers with at most two decimals.",
+				"invalidTable": "\"{0}\" must have atleast {1} answers.",
+				"numeric": "Only digits allowed.",
+				"charLimit": "Max {1} characters.",
+				"charMaxSize50": "Max 50 characters.",
+				"charMaxSize255": "Max 255 characters.",
+				"charMaxSize5000": "Max 5000 characters.",
+				"zipCode": "Enter a correct zip code.",
+				"macAddress": "Enter a correct mac-address.",
+				"validPersNumber": "Enter a correct personal code number.",
+				"validOrgNumber": "Enter a correct organization number",
+				"maxFileSizeReached": "The total size of files uploaded exceeds the 28MB limit.",
+				"minDate": "Select date no earlier than {1}.",
+				"maxDate": "Select date no later than {1}.",
+				"minNumber": "Enter a number that is greater than or equal to {1}",
+				"maxNumber": "Enter a number that is less than or equal to {1}",
+				"formPathNotUnique": "The url already exists, it must be unique",
+				"validFormPath": "Can only contain small letters (except å, ä and ö), digits and dashes"
+			}
+		},
+		"linkExternal": "This is an external e-service located outside this website",
+		"infoPage": "This is a info page",
+		"error": {
+			"formNotFound": "The requested e-service could not be found. Please check that the link is correct.",
+			"formNotFoundRedirectCountdown": "In {0} seconds you will be redirected to the start page.",
+			"formNotPublished": "The requested e-service is currently not available. ",
+			"general": "An error occurred, please try again later.",
+			"404": "Page could not be found",
+			"400": {
+				"FormPathNotUnique": "The url already exists, it must be unique",
+				"FormNoPath": "The url cannot be empty"
+			},
+			"401": "We could not authenticate you, please check that you are logged in.",
+			"wrongUser": "This link is not meant for you",
+			"linkCancelled": "This eservice has been cancelled.",
+			"linkExpired": "This link is no longer valid.",
+			"linkSigned": "This eservice is already signed.",
+			"frejaEIDError": "Something went wrong when authenticating with Freja eID",
+			"zeroFileSize": "Error occured when uploading file, please go back and check your file.",
+			"tooLargeTotalFileSize": "Error occured when uploading files, the total size of the files is too big. Please go back and check your file.",
+			"network": "Could not connect to Umeå kommun, please check your internet connection and try again."
+		},
+		"route": {
+			"AppStart": "Overview",
+			"AppForm": "E-service",
+			"AdminListForms": "Administration",
+			"AdminForm": "E-service"
+		},
+		"status": {
+			"draft": "Draft",
+			"published": "Published",
+			"unpublished": "Unpublished"
+		},
+		"admin": {
+			"administrator": "Admin",
+			"title": "Administration",
+			"componentTitle": "Title",
+			"componentTitleHint": "Line of text that will be visible to the end user",
+			"componentHelpText": "Help text",
+			"componentHelpTextHint": "A short sentence that gives the end user more information about this particular field.",
+			"field": {
+				"allowDecimals": "Allow decimals",
+				"allowDecimalsHelpText": "Allow up to two decimal places.",
+				"title": "Title",
+				"titleHelpText": "Enter a text that is displayed to the user",
+				"helpText": "Help text",
+				"helpTextHelpText": "Enter a help text that is displayed to the user",
+				"defaultValue": "Default value",
+				"defaultValueHelpText": "Enter a text that is pre-selected for the user",
+				"validation": "Validation",
+				"validationHelpText": "You can for example force the user to enter a correct email.",
+				"checkboxForAnotherText": "Show when applying for another",
+				"checkboxForAnotherHelpText": "If the field should only be display if applying for another",
+				"checkboxAutofillNumberOfRowsText": "Set min/max lines based on what is filled in from external data source.",
+				"readOnly": "Read only",
+				"readOnlyHelpText": "If the field should be read only",
+				"useAsContactField": "Use as a contact field",
+				"useAsContactFieldHelpText": "Connect the field to a contact field in the review step.",
+				"selectContactField": "Select contact field",
+				"selectContactFieldHelpText": "Choose which contact field to connect to.",
+				"checkboxForMultipleLegitimationText": "The data source contains info about children and guardians.",
+				"checkboxForMultipleLegitimationHelpText": "If there are multiple guardians a way to contact the other guardian will be asked for in the review step.",
+				"checkboxForMoreInformationText": "There are more info on this",
+				"checkboxForAutoGeneratedPasswordText": "Automatically generate the password",
+				"checkboxForAutoGeneratedPasswordDescription": "Set the field to a generated password if it does not have a value.",
+				"passwordLength": "Password length",
+				"passwordSpecialCharacters": "The password should contain special characters",
+				"button": {
+					"title": "Title for button",
+					"titleHelpText": "Skriv in en titel som visas för ansökare."
+				},
+				"allowMultipleChoices": "Allow multiple choices",
+				"allowMultipleChoicesHelpText": "The user may select several options from the list."
+			},
+			"fieldOptions": {
+				"tabs": {
+					"basic": "Options",
+					"display": "Display",
+					"data": "Data Source",
+					"integration": "Integration"
+				}
+			},
+			"adminCommentConsole": {
+				"create": "Add comment",
+				"buttontitle": "Admin Comment",
+				"comment": {
+					"text": "Comment",
+					"save": "Save",
+					"delete": "Delete"
+				}
+			},
+			"header": {
+				"eServices": "E-services",
+				"tabs": {
+					"edit": "Edit",
+					"settings": "Settings"
+				},
+				"preview": "Preview",
+				"open": "Open e-service",
+				"copyPublicLink": "Copy public link",
+				"save": "Save"
+			},
+			"confirmDialog": {
+				"cancelDefault": "Cancel",
+				"confirmDefault": "Yes"
+			},
+			"adminDataOptions": {
+				"dataSource": {
+					"description": "Retrieve the fields value from a data source",
+					"descriptionItems": "Retrieve the options from a data source",
+					"descriptionSearch": "Select which data source to search against",
+					"dataSource": "Data source",
+					"field": "Attribute",
+					"fieldDescription": "Select which attribute on the data source that should be connected to the field",
+					"searchParameter": "Field to use as a parameter",
+					"searchParameterHelpText": "This data source uses a parameter",
+					"resultToInput": "With the currently selected data source, this field can be used as a parameter in the following data sources.",
+					"itemFiller": "Fills in values in the table",
+					"itemFillerHelpText": "The user's selection in this field affects the data displayed in the remaining table fields."
+				}
+			}
+		}
+	},
+	"component": {
+		"adminDisplayRuleGroup": {
+			"properties": {
+				"title": "Display rules"
+			},
+			"title": "Display rules",
+			"delete": "Delete group",
+			"rule": "Rule",
+			"group": "Group",
+			"confirm": {
+				"title": "Delete group?",
+				"text": "Do you want to delete the group?",
+				"buttonText": "Delete group"
+			},
+			"disableConfirm": {
+				"title": "Delete display rules?",
+				"text": "All created display rules will be removed",
+				"buttonText": "Delete display rules"
+			}
+		},
+		"AdminSwitch": {
+			"activate": "Activate",
+			"deactivate": "Deactivate"
+		},
+		"AdminHtmlPreview": {
+			"edit": "Edit {0}"
+		},
+		"appHeader": {
+			"navigation": "",
+			"logoAlt": "Logotype for Umeå kommun",
+			"appName": "E-services",
+			"menu": {
+				"allServices": "All e-services",
+				"mainSite": "Umea.se",
+				"about": "About",
+				"admin": "Administration",
+				"logout": "Sign out",
+				"errorReport": "Report errors",
+				"availabilityStatement": "Availability statement",
+				"help": {
+					"title": "Help",
+					"login": "E-ID and logins",
+					"multipleGuardians": "Joint case for guardians"
+				}
+			}
+		},
+		"appFooter": {
+			"byLine": "E-services provided by Umeå municipality.",
+			"linksTitle": "Find quickly"
+		},
+		"appForm": {
+			"startPageTitle": "E-service description",
+			"allChangesSaved": "All changes saved",
+			"savedToday": "Saved today",
+			"saved": "Saved ",
+			"notSaved": "Unsaved",
+			"previewWarningTitle": "Preview",
+			"testWarningTitle": "Test e-service",
+			"previewTestWarningTitle": "Test e-service, show hidden fields",
+			"scheduleInfo": {
+				"title": "E-service is closed",
+				"infoSoonOpen": "This e-service will be available for public use {0}",
+				"infoClosed": "This e-service is closed. For more information please get in contact with {0}."
+			},
+			"testWarningInfoTitle": "This e-service is not yet published!",
+			"testWarningInfoText": "",
+			"adminDisabledSendButton": "Logged in as admin",
+			"cancel": {
+				"title": "Are you sure?",
+				"text": "All data will be lost if the form is cancelled"
+			},
+			"editButtonTitle": "Edit e-service",
+			"print": "Print document",
+			"applyingForAnother": "I am applying for someone else",
+			"reject": {
+				"title": "You are about to reject this application.",
+				"text": "Are you sure yes/no"
+			}
+		},
+		"AppPrintForm": {
+			"sendInfo": "This form document should be sent with letter to ",
+			"signature": "Signature",
+			"printPersonNumber": "Applicant",
+			"document": "Document",
+			"notice": "This is a printer-friendly version of the e-service",
+			"contactInfo": "Contact information",
+			"contactInfoSender": "Contact information to you",
+			"contactInfoHelp": "Please provide us with information about how we can get in contact with you",
+			"warningUnpublished": "This e-service is unpublished and cannot be used!"
+		},
+		"FormGdpr": {
+			"readMore": "Read more about how we manage your personal information",
+			"readMoreOn": "Read more about how we manage your personal information at"
+		},
+		"appStart": {
+			"title": "Overview e-services",
+			"search": "Search for e-services",
+			"searchPlaceholder": "Search...",
+			"mostUsedEServices": "Most used e-services",
+			"noMatches": "No matching e-services were found.",
+			"name": "Name",
+			"sorting": "Sort by:",
+			"category": "Category",
+			"lifeSituation": "Lifesituation",
+			"showAll": "Show all",
+			"showAllInCategory": "Show all in category",
+			"showAllUncategorized": "Show all uncategorized e-services",
+			"showLess": "Show less",
+			"toEService": "Go to e-service"
+		},
+		"formUserContactInfo": {
+			"title": "Your contact information",
+			"socialsecuritynumber": "Socialsecuritynumber",
+			"name": "Name",
+			"firstname": "Firstname",
+			"lastname": "Lastname",
+			"address": "Address",
+			"postalNumber": "Zip Code",
+			"city": "Citry",
+			"phonenumber": "Phone number",
+			"email": "E-mail",
+			"guardianTitle": "guardian"
+		},
+		"formContactInfo": {
+			"contactPath": "choose how co-applicants should be notified ",
+			"email": "E-mail",
+			"name": "Name",
+			"phonenumber": "Phone number",
+			"title": "Contact information",
+			"guardianTitle": "guardian",
+			"warning": {
+				"title": "This service requires all guardians to consent",
+				"text": "Fill in the contact details of the other guardians carefully"
+			}
+		},
+		"adminChangeFieldType": {
+			"title": "Change field type",
+			"description": "You change the field type for the following fields:",
+			"newTypeTitle": "Change field type to",
+			"save": "Change field type",
+			"lostData": {
+				"title": "Data can be lost if you change the field type",
+				"confirmContinue": "Are you sure you want to continue?",
+				"displayRules": "There are fields that use this field in display rules, changing the field type will remove these display rules.",
+				"itemHelpText": "Options in the field have a description that will be removed if you change the field type.",
+				"validationRules": "There are validation rules that are not applicable to the new field type, these will be removed.",
+				"dataSource": "The field has a data source that is not applicable to the new field type, it will be removed.",
+				"dataSourceKept": "The field has a data source that will be kept, check that the data source works as intended.",
+				"usedInIntegration": "The field is used in an integration or email, if you change the field type, the integration may no longer work as intended.",
+				"predefinedValue": "The field has a default value that will be removed.",
+				"contactField": "The field is used as a contact field, this setting will be removed.",
+				"readOnly": "The field is set to read only, this will be removed."
+			}
+		},
+		"appDescription": {
+			"text": "Receiver of this information you send via this e-service is",
+			"confirmationText": "Thank you, you are now done!",
+			"download": "Download pdf",
+			"rateText": "Did you find the e-service as simple?",
+			"rating": {
+				"1": "One of five stars",
+				"2": "Two of five stars",
+				"3": "Three of five stars",
+				"4": "Four of five stars",
+				"5": "Five of five stars"
+			},
+			"rateThanks": "Thanks, please leave us a comment to help us improve our e-services.",
+			"commentThanks": "Thank you!",
+			"sendComment": "Send comment",
+			"comment": "Comment",
+			"footerInfo1": "You send information to ",
+			"footerInfo2": " with this service.",
+			"footerPrint1": "If you can not use this service? ",
+			"footerPrint2": "Print a form ",
+			"footerPrint3": " and send it to ",
+			"footerGdpr": "We process your personal data as follows.",
+			"cesInfo": {
+				"1": "We would like to know how you experienced our service.",
+				"2": "When your case is closed, we will send you a short survey.",
+				"3": "Your answers are important to us."
+			}
+		},
+		"fieldTextBox": {
+			"title": "Textbox",
+			"description": "Add a textbox with a single row",
+			"newField": "New textbox"
+		},
+		"fieldHiddenTextBox": {
+			"description": "Add a hidden field.",
+			"title": "Hidden field",
+			"newField": "New hidden field"
+		},
+		"fieldTextSearchBox": {
+			"title": "TextSearchbox",
+			"description": "Add a textsearchbox with a single row",
+			"newField": "Nytt TextSearchbox"
+		},
+		"fieldSelectSearchList": {
+			"title": "SelectSearchList",
+			"description": "Add a selectSearchList with a single row",
+			"newField": "Nytt SelectSearchList"
+		},
+		"fieldPersonalNumber": {
+			"description": "Add a social security number for the person to whom the application relates.",
+			"title": "Social security number",
+			"newField": "New Social security number field"
+		},
+		"fieldNumeric": {
+			"description": "Add a numeric field that only allows input of numbers",
+			"title": "Numeric field",
+			"newField": "New numeric field"
+		},
+		"fieldTextArea": {
+			"title": "Textarea",
+			"description": "Add a textarea with multiple rows",
+			"newField": "New textarea"
+		},
+		"fieldSection": {
+			"title": "Text content",
+			"description": "Add text content with header and optional description",
+			"text": "Text",
+			"textHelpText": "This text will be displayed to the user",
+			"extraText": "Extra text",
+			"extraTextHelpText": "This text will be displayed to the user if they click read more",
+			"readMore": "Read more"
+		},
+		"fieldSelectList": {
+			"title": "Dropdown menu",
+			"description": "Add a dropdown menu where one option can be selected",
+			"newField": "New select list"
+		},
+		"fieldCheckBox": {
+			"title": "Checkbox",
+			"description": "Add checkboxes where multiple options can be selected",
+			"newField": "New checkbox"
+		},
+		"fieldRadioButton": {
+			"title": "Radiobutton",
+			"description": "Add radio buttons where a single option can be selected",
+			"newField": "New radio button"
+		},
+		"fieldDatePicker": {
+			"title": "Date",
+			"description": "Add a field to select date from a calendar",
+			"dateExpression": " [yyyy-mm-dd]",
+			"placeholder": "Select date",
+			"weekShort": "w",
+			"newField": "New date field"
+		},
+		"fieldTable": {
+			"title": "Table",
+			"description": "Add a table",
+			"rowDisplay": "Display rows",
+			"rowDisplayHint": "How the table should be displayed to the user",
+			"asObject": "...as objects",
+			"asTable": "...as table rows",
+			"objectName": "Object name",
+			"objectNameHint": "Used as display name in the button the user clicks on to add a new object",
+			"columns": "Columns",
+			"minRows": "Minimum rows",
+			"minRowsHint": "The minimum amount of rows that the user has to add",
+			"maxRows": "Maximum rows",
+			"maxRowsHint": "The maximum amount of rows that the user has to add"
+		},
+		"fieldFileUpload": {
+			"acceptedFileTypes": "Accepted file types",
+			"acceptMultipleFiles": "Allow multiple files",
+			"minSize": "is empty and therefore is not allowed. Attach another file containing information.",
+			"maxFiles": "Max number of files",
+			"allowAnyFileType": "Any image, Office document or pdf",
+			"allowOnlyImages": "Only images (jpg and png)",
+			"allowOnlyPdfAndWord": "Only Word documents and PDF files",
+			"allowOnlyPdfAndImages": "Only PDF files and images (jpeg and png)",
+			"allowOnlyPdfAndOffice": "Only PDF files and Office documents",
+			"allowOnlyPdf": "Only PDF files",
+			"title": "File upload",
+			"description": "Add a field to enable upload of single or multiple files",
+			"printAttachments": "Attachments",
+			"printInfo": "Please write down the name of the documents that you're sending.",
+			"newField": "New file upload"
+		},
+		"PaperSignature": {
+			"whereAndWhen": "Location and date",
+			"name": "Name",
+			"signature": "Signature"
+		},
+		"PrintPersonNumber": {
+			"name": "Name",
+			"personNumber": "Social security number"
+		},
+		"filepond": {
+			"label": {
+				"intro": "Upload files by clicking, or dropping them, here",
+				"allAllowed": "Only files of type  jpg, word or pdf allowed.",
+				"imagesOnly": "Only images of type jpg allowed.",
+				"docsOnly": "Only documents of type PDF or Word allowed.",
+				"pdfOnly": "Only files of type Pdf allowed"
+			},
+			"viewLabelIdle": " file(s) have been attached.",
+			"viewLabelIdleEmpty": "No files attached",
+			"labelFileWaitingForSize": "Waiting for size",
+			"labelFileSizeNotAvailable": "Size not available",
+			"labelFileLoading": "Loading",
+			"labelFileLoadError": "Error during load",
+			"labelFileProcessing": "Uploading",
+			"labelFileProcessingComplete": "Upload complete",
+			"labelFileProcessingAborted": "Upload cancelled",
+			"labelFileProcessingError": "Error during upload",
+			"labelTapToCancel": "tap to cancel",
+			"labelTapToRetry": "tap to retry",
+			"labelTapToUndo": "tap to undo",
+			"labelButtonRemoveItem": "Remove",
+			"labelButtonAbortItemLoad": "Abort",
+			"labelButtonRetryItemLoad": "Retry",
+			"labelButtonAbortItemProcessing": "Cancel",
+			"labelButtonUndoItemProcessing": "'Undo",
+			"labelButtonRetryItemProcessing": "Retry",
+			"labelButtonProcessItem": "Upload",
+			"labelFileTypeNotAllowed": "File of invalid type",
+			"fileValidateTypeLabelExpectedSingleType": "Expects {lastType}",
+			"fileValidateTypeLabelExpectedTypes": "Expects {allButLastType} or {lastType}",
+			"labelMaxFileSizeExceeded": "File is too large",
+			"labelMinFileSizeExceeded": "File is too small",
+			"labelMaxFileSize": "Maximum file size is 5 MB",
+			"labelMinFileSize": "Minimun file size is 1 byte",
+			"labelTotalFileSizeExceeded": "Maximum total size exceeded",
+			"labelMaxTotalFileSize": "Maximum total file size is {filesize}"
+		},
+		"adminItemListManager": {
+			"addItem": "Add list item",
+			"checked": "Selected",
+			"title": "Title",
+			"helpText": "Helptext/information",
+			"rubrik": "Alternative"
+		},
+		"PrintCheckBoxList": {
+			"oneOrMoreSelections": "Please check one or more of the options below",
+			"oneSelectionOnly": "Please check one of the options below"
+		},
+		"PrintFollowUpQuestion": {
+			"info": "Check the alternatives in the left column and answer the questions in the corresponding column on the right side"
+		},
+		"adminForm": {
+			"menu": {
+				"subHeader": {
+					"eService": "E-SERVICE",
+					"changeStatus": "CHANGE STATUS",
+					"administrate": "ADMINISTRATE"
+				},
+				"formTitle": "Title and URL",
+				"contactInformation": {
+					"title": "Contact information",
+					"info": "Specify which user information that's demanding."
+				},
+				"gdpr": "Personal data manager",
+				"lifeSituation": "Life situation",
+				"category": "Categories",
+				"preview": "Preview",
+				"test": "Test e-service",
+				"title": "Menu",
+				"draft": "Draft",
+				"publish": "Publish",
+				"unpublish": "Unpublish",
+				"managementobject": "Managementobject",
+				"receiver": "Receiver",
+				"errorWarningTitle": "The e-service was saved, containing the following errors:",
+				"errorTitle": "You must fix the following errors inorder to publish the e-service",
+				"errorDialogHeader": " E-service could not become published!"
+			},
+			"userRequirements": {
+				"contactPath": "Contact path, multiple legitimation",
+				"title": "User Requirements",
+				"info": "Required contact information",
+				"address": "Address",
+				"email": "E-mail",
+				"phoneNumber": "Phone",
+				"option": "Option to allow apply for another",
+				"optionapplying": "Allow to apply for another",
+				"userContactInformation": {
+					"title": "Users contact information",
+					"checkbox": "Ask for users contact information"
+				},
+				"multipleLegitimation": {
+					"title": "Multiple legitimation",
+					"numberOfDaysToAnswerTitle": "Number of days for time to answer",
+					"numberOfDaysToAnswerHelptext": "Enter the number of days that guardian two has to respond",
+					"checkbox": "Require multiple legitimation",
+					"titleMessageTexts": "Content in automatic dispatches",
+					"description": "Edit the content in the emails and/or SMS that are sent automatically to the e-service users.",
+					"edit": "Edit content",
+					"messageTextsModal": {
+						"title": "Content in automatic dispatches for multiple legitimations",
+						"confirmAndNotification": "Confirmation & notification",
+						"statusUpdate": "Status update",
+						"reminder": "Reminder",
+						"epost": "Email",
+						"sms": "SMS",
+						"subject": "Subject",
+						"sendTitle": "Guardian 1, confirmation",
+						"sendDescription": "Sent to guardian 1 after they have initiated the case.",
+						"sendSecondTitle": "Guardian 2, notification",
+						"sendSecondDescription": "Sent to guardian 2 after guardian 1 has initiated the case.",
+						"statusAcceptTitle": "Guardian 1, approved in the case",
+						"statusAcceptDescription": "Guardian 1 receives a message that the case has been approved by guardian 2",
+						"statusRejectTitle": "Guardian 1, rejected in the case",
+						"statusRejectDescription": "Guardian 1 receives a message that guardian 2 has rejected the case",
+						"reminderFirstTitle": "Guardian 2, reminder 1 and 2",
+						"reminderFirstDescription": "Guardian 2 receives a reminder if they have not responded in the e-service",
+						"reminderLastTitle": "Guardian 2, final reminder",
+						"reminderLastDescription": "Guardian 2 receives a final reminder",
+						"reminderClosedTitle": "Guardian 1, case expired",
+						"reminderClosedDescription": "Guardian 1 receives a message that the case has been closed",
+						"dynamicalVariables": {
+							"title": "Dynamic values",
+							"description": "Click on a dynamic value to automatically insert it at the current position of the cursor.",
+							"titleEserviceConfirmAndNotificationAndStatus": "E-service title when confirmed, notification and status",
+							"titleEserviceReminders": "E-service title when reminders",
+							"titleEserviceExpired": "E-service title when expired",
+							"nameGuardian": "Full name of guardian",
+							"nameGuardian1ShowsWhenExpired": "Guardian 1 when expired",
+							"urlEserviceEmail": "Web address of the e-service",
+							"urlEserviceSms": "Web address of the e-service shortened",
+							"numberOfDays": "Number of days"
+						}
+					},
+					"messageTextsDefaults": {
+						"email": {
+							"subjectSend": "Inskick till {title} mottagen",
+							"subjectSendSecond": "Nytt meddelande från Umeå kommun",
+							"subjectAccept": "Meddelande från Umeå kommun",
+							"subjectReject": "Meddelande från Umeå kommun",
+							"subjectReminder": "Påminnelse från Umeå kommun.",
+							"subjectLastReminder": "Sista påminnelse från Umeå kommun.",
+							"subjectClosedDueToNoResponse": "Meddelande från Umeå kommun",
+							"messageTextSend": "Hej {vh}<br><br>Du får det här meddelandet för att du har skickat in ett ärende som måste bekräftas av den andra vårdnadshavaren. Ditt ärende behöver besvaras inom {numberOfDays} dagar. Om det inte besvaras kommer det att avslutas automatiskt utan åtgärd.<br><br>Detta meddelande skickas ut automatiskt och går inte att svara på. Har du frågor är du välkommen att ta kontakt med oss på {email}.<br><br>Med vänliga hälsningar<br>Umeå kommun",
+							"messageTextSendSecond": "Hej {vh}<br><br>Du får det här meddelandet för att en vårdnadshavare till ditt barn har lämnat in ett ärende i tjänsten {title}. Logga in med BankID för att besvara. {urlEserviceEmail}. Ärendet måste besvaras inom {numberOfDays} dagar.<br><br>Detta meddelande skickas ut automatiskt och går inte att svara på. Har du frågor är du välkommen att ta kontakt med oss på {email}.<br><br>Med vänliga hälsningar<br>Umeå kommun",
+							"messageTextAccept": "Hej {vh}<br><br>Ärendet i tjänsten {title} har blivit godkänt av den andra vårdnadshavaren och har nu lämnats vidare för behandling.<br><br>Detta meddelande skickas ut automatiskt och går inte att svara på. Har du frågor är du välkommen att ta kontakt med oss på {email}.<br><br>Med vänliga hälsningar<br>Umeå kommun",
+							"messageTextReject": "Hej {vh}<br><br>Ärendet i tjänsten {title} har blivit nekat av den andra vårdnadshavaren. Ärendet avslutas utan åtgärd.<br><br>Detta meddelande skickas ut automatiskt och går inte att svara på. Har du frågor är du välkommen att ta kontakt med oss på {email}.<br><br>Med vänliga hälsningar<br>Umeå kommun",
+							"messageTextReminder": "Hej {vh}<br><br>Du får det här meddelandet för att en vårdnadshavare till ditt barn har lämnat in ett ärende i tjänsten {title}. Logga in med BankID för att besvara. {urlEserviceEmail}. Ärendet måste besvaras inom {numberOfDays} dagar.<br><br>Detta meddelande skickas ut automatiskt och går inte att svara på. Har du frågor är du välkommen att ta kontakt med oss på {email}.<br><br>Med vänliga hälsningar<br>Umeå kommun",
+							"messageTextLastReminder": "Hej {vh}<br><br>Du har tidigare fått meddelanden om att en vårdnadshavare till ditt barn har lämnat in ett ärende i tjänsten {title}. Logga in med BankID för att besvara. {urlEserviceEmail}. Besvaras inte ärendet inom {numberOfDays} dagar avslutas det utan åtgärd.<br><br>Detta meddelande skickas ut automatiskt och går inte att svara på. Har du frågor är du välkommen att ta kontakt med oss på {email}.<br><br>Med vänliga hälsningar<br>Umeå kommun",
+							"messageTextClosedDueToNoResponse": "Hej {vh}<br><br>Ärendet i tjänsten {title} har inte besvarats inom svarstiden och avslutas därför utan åtgärd.<br><br>Detta meddelande skickas ut automatiskt och går inte att svara på. Har du frågor är du välkommen att ta kontakt med oss på {email}<br><br>Med vänliga hälsningar<br>Umeå kommun"
+						},
+						"sms": {
+							"messageTextSend": "Hej {vh}&#xA;Ditt ärende måste bekräftas av den andra vårdnadshavaren inom {numberOfDays} dagar. Om det inte besvaras kommer det att avslutas automatiskt utan åtgärd&#xA;Detta meddelande går ej att svara på. Kontakta oss på {email} vid frågor.&#xA;Umeå kommun",
+							"messageTextSendSecond": "Hej {vh}&#xA;Ett ärende i tjänsten {title} har skapats av en vårdnadshavare till ditt barn. Du måste logga in och besvara ärendet inom {numberOfDays} dagar.&#xA;{urlEserviceSms}&#xA;Detta meddelande går ej att svara på. Kontakta oss på {email} vid frågor.&#xA;Umeå kommun",
+							"messageTextAccept": "Hej {vh}&#xA;Ärendet i tjänsten {title} har blivit godkänt av den andra vårdnadshavaren och har nu lämnats vidare för behandling.&#xA;Detta meddelande går ej att svara på. Kontakta oss på {email} vid frågor.&#xA;Umeå kommun",
+							"messageTextReject": "Hej {vh}&#xA;Ärendet i tjänsten {title} har blivit nekat av den andra vårdnadshavaren. Ärendet avslutas utan åtgärd.&#xA;Detta meddelande går ej att svara på. Kontakta oss på {email} vid frågor.&#xA;Umeå kommun",
+							"messageTextReminder": "Hej {vh}&#xA;Påminnelse från Umeå kommun om ett ärende i tjänsten {title}. Logga in med BankID för att besvara. {urlEserviceSms}. Ärendet måste besvaras inom {numberOfDays} dagar.&#xA;Detta meddelande går ej att svara på. Kontakta oss på {email} vid frågor.&#xA;Umeå kommun",
+							"messageTextLastReminder": "Hej {vh}&#xA;Sista påminnelse från Umeå kommun om ett ärende i tjänsten {title}. Logga in med BankID för att besvara {urlEserviceSms}. Besvaras inte ärendet inom {numberOfDays} dagar avslutas det utan åtgärd.&#xA;Detta meddelande går ej att svara på. Kontakta oss på {email} vid frågor.&#xA;Umeå kommun",
+							"messageTextClosedDueToNoResponse": "Hej {vh}&#xA;Ärendet i tjänsten {title} har inte besvarats inom svarstiden och avslutas därför utan åtgärd.&#xA;Detta meddelande går ej att svara på. Kontakta oss på {email}.se vid frågor.&#xA;Mvh&#xA;Umeå kommun"
+						}
+					}
+				},
+				"contactPaths": {
+					"mail": "E-mail with url",
+					"sms": "SMS with url",
+					"myMessages": "Url in Mina meddelanden",
+					"QR": "QR-code with url by mail"
+				},
+				"authClients": {
+					"anonym": "Anonymous",
+					"publik": "BankID",
+					"frejaID": "Freja eID+",
+					"azureActiveDirectory": "Employee in Umeå kommun",
+					"elevAd": "Pupil in Umeå kommun"
+				},
+				"allowedLoginMethods": "Login methods",
+				"allowedLoginMethodsHelpText": "Choose which login methods the e-service accepts"
+			},
+			"dropZoneInfo": "Add a field by double-clicking on the field in the right sidebar. You can also drag and drop the field here.",
+			"properties": {
+				"title": "Title"
+			},
+			"linkExternal": {
+				"title": "Link to external webbsite",
+				"url": "Url link"
+			},
+			"fields": {
+				"title": "Add field"
+			},
+			"adminSettingsSidebar": {
+				"settingsSubtitle": "Settings",
+				"afterSendInSubtitle": "After submit",
+				"email": "E-mail",
+				"integration": "Integrations",
+				"CES": "Follow up"
+			},
+			"integrationEdit": {
+				"title": "Edit integration",
+				"cancel": "Cancel",
+				"save": "Kepp changes",
+				"keepChangesModal": {
+					"title": "Keep changes?",
+					"text": "Do you want to keep your changes?",
+					"yes": "Yes, keep changes",
+					"no": "No"
+				},
+				"hasXErrors": "The integration has {0} problems"
+			},
+			"integrationList": {
+				"edit": "Edit",
+				"delete": "Remove"
+			},
+			"confirmDiscardChanges": "Unsaved changes",
+			"confirmDiscardChangesInfo": "You've made changes to this e-service without saving. Do you want to discard these changes?"
+		},
+		"adminSteps": {
+			"confirmDelete": {
+				"title": "Delete step and fields?",
+				"text": "Are you sure you wan't to delete the step? All fields on this step will become deleted!"
+			},
+			"add": {
+				"defaultName": "Step",
+				"tooltip": "Add a step."
+			},
+			"delete": {
+				"btnText": "Delete step",
+				"tooltip": "Delete step"
+			},
+			"title": {
+				"label": "Title",
+				"hint": "Enter a title for the step"
+			},
+			"push": {
+				"forward": "Move step down",
+				"back": "Move step up"
+			},
+			"description": {
+				"label": "Description",
+				"hint": "Enter an optional description of the step"
+			},
+			"error": {
+				"onAddStep": "Could not add step!",
+				"onDeleteStep": "Could not delete step!",
+				"onUpdateStep": "Could not update step!"
+			}
+		},
+		"adminValidationManager": {
+			"validation": {
+				"title": "Add validation",
+				"condition": "Condition",
+				"types": {
+					"required": "Mandatory field",
+					"requiredHelpText": "User has to fill out this field to continue.",
+					"requiredFileHelpText": "User has to upload a file in this field to continue.",
+					"email": "Correct email",
+					"length": "Number of characters",
+					"oneOrMoreIsChecked": "One or more options have been selected",
+					"numeric": "Only digits",
+					"validPersNumber": "Wrong socialsecuritynumber",
+					"validOrgNumber": "Correct organization number",
+					"zipCode": "Wrong zip code",
+					"macAddress": "Correct mac address",
+					"charLimit": "Limit number of characters",
+					"charMaxSize": "Maximum number of characters",
+					"charMaxSize50": "Max 50 characters (database small)",
+					"charMaxSize255": "Max 255 characters (Sharepoint)",
+					"charMaxSize5000": "Max 5000 characters (database big)",
+					"minDate": "Start date",
+					"maxDate": "End date",
+					"phonenumber": "Correct phone number"
+				},
+				"orgNumberFormat": {
+					"label": "Accepted organization number formats",
+					"helpText": "If you do not select a format, all formats are accepted.",
+					"short": "10 digits without dash (5555555555 etc.)",
+					"shortDash": "10 digits with dash (555555-5555 etc.)",
+					"long": "12 digits without dash (165555555555 etc.)",
+					"longDash": "12 digits with dash (16555555-5555 etc.)",
+					"doFormatOutput": "Format output",
+					"doFormatOutputHelpText": "Change the format of the organization number in the PDF and the format sent to integrations.",
+					"formatOutput": "Select output format"
+				}
+			},
+			"formValidation": {
+				"formHasXErrors": "E-service has {0} problems",
+				"formErrorsDescription": "These problems needs to be resolved before the e-service and be published",
+				"formMissingTitle": "Add a title to the e-service",
+				"formMissingPath": "Add a link to the e-service",
+				"formMissingReceiver": "Add a receiver to the e-service",
+				"formMissingPm3": "Add a management object to the e-service",
+				"formMissingLifeSituation": "Add at least one life situation",
+				"formMissingCategory": "Add at least one category",
+				"formMissingGdpr": "Add at least one personal data controller",
+				"formMissingAuthClients": "Add at least one login method",
+				"formMissingContactPaths": "You need to select at least one contact path",
+				"formMissingIntegration": "You need to send an email or add an integration",
+				"formMissingNumberOfDaysToAnswer": "You must enter the number of days for reminders, between 5-30 days",
+				"fieldMissingTitle": "Field is missing title",
+				"dataSourceMissingParameter": "The fields data source needs a parameter",
+				"dataSourceBadParameter": "The field's data source has an incorrect parameter",
+				"dataSourceMissingAttribute": "The fields data source needs an attribute",
+				"fieldMissingDisplayRuleQuestion": "Select a question in the display rule",
+				"fieldMissingDisplayRuleChoice": "Select an operator in the display rule",
+				"fieldMissingDisplayRuleResponse": "Select a response in the display rule",
+				"tableMissingMinRows": "You need to enter minimum rows for table",
+				"validFormPath": "Enter a valid link to the e-service",
+				"missingAverageTreatmentTime": "Enter average treatment time",
+				"navetFieldsWithSameName": "There are several fields with the same name \"{fieldName}\" to be sent to Navet.",
+				"invalidScheduleDate": "Enter a correct date for scheduling.",
+				"invalidFieldDate": "The field \"{fieldName}\" has an incorrect date.",
+				"linkExternal": "You need to enter an external link."
+			}
+		},
+		"adminFields": {
+			"rightClickMenu": {
+				"edit": "Edit",
+				"copy": "Copy",
+				"cut": "Cut",
+				"isCut": "Cut out",
+				"paste": "Paste",
+				"pasteNFields": "Paste {0} field(s)",
+				"cantCopyCutTables": "Can not copy/cut tables",
+				"changeFieldType": "Change field type",
+				"delete": "Delete",
+				"connect": {
+					"displayrule": "Connect display rule",
+					"mandatory": "Remove mandatory",
+					"notmandatory": "Connect mandatory"
+				}
+			},
+			"columnWidthWarning": "The total width of all columns exceeds 100%",
+			"columnWidth": "Column width in percent",
+			"showToUser": "Show in review step",
+			"showToUserHelpText": "Show this field in the review step before the user sends in the form",
+			"field": {
+				"confirmDelete": {
+					"title": "Delete Fields?",
+					"text": "Are you sure you want to delete the field? All information on the field will be deleted!"
+				},
+				"confirmDeleteTable": {
+					"title": "Delete table?",
+					"text": "Are you sure you want to delete the table? All fields inside the table will be deleted."
+				},
+				"error": {
+					"onDeleteField": "Could not delete field!",
+					"onAddField": "Could not add field!"
+				},
+				"delete": {
+					"btnText": "Delete field",
+					"tooltip": "Delete field"
+				},
+				"deleteTable": {
+					"btnText": "Delete table"
+				}
+			},
+			"dragToMove": "Drag to move field",
+			"motherField": "Other fields will be shown based on choices made in this field",
+			"childField": "This field uses display rules and is shown based on previous choices or information about the user",
+			"dataSourceTitle": "This field has a data source",
+			"integrationTitle": "The value of this field is sent to an integration"
+		},
+		"adminFormTitle": {
+			"confirmOpenEserviceTitle": "Unsaved changes",
+			"confirmOpenEserviceText": "You've made changes to this e-service without saving. Do you still want to open the e-service?"
+		},
+		"adminFormProperties": {
+			"properties": {
+				"title": "Properties",
+				"titleOnForm": "Name",
+				"path": "Link",
+				"pathHelpText": "The link for the form changes to this.",
+				"description": "Description",
+				"descriptionHelpText": "The description for the e-service.",
+				"pm3": "Management object",
+				"receiver": "Receiver",
+				"gdpr": "Authority",
+				"status": "Status",
+				"hidden": "Hidden service",
+				"hiddenHelpText": "Hides the e-service from the start page so it is only accessible using the link",
+				"titleMisc": "Other settings",
+				"personnumber": "Hide personal number on PDF",
+				"personnumberHelpText": "Hide the personal number from the PDF that is generated",
+				"simpleEservice": "Simple e-service",
+				"simpleEserviceHelpText": "Simplify e-service by removing preview step, do not offer download of PDF or to print the e-service",
+				"printFieldPersonnumber": "Field for social security number when printing",
+				"printFieldPersonnumberHelpText": "When printing a form, fields are added for the applicant's social security number and name",
+				"allowPrintPdf": "Printable e-service",
+				"allowPrintPdfHelpText": "Allow users to print the e-service",
+				"linkExternal": "External link"
+			},
+			"advanced": "Avanced",
+			"published": "Published",
+			"draft": "Draft",
+			"unPublished": "Inactive",
+			"dateSchedule": "Date Schedule",
+			"dateScheduleHelpText": "Use date scheduling to only allow users to enter the e-service between selected times",
+			"dateScheduleFrom": "The e-service opens at",
+			"dateScheduleTo": "and closes at",
+			"publicLink": "Public URL",
+			"goToEservice": "Open e-service",
+			"goToPreview": "Preview",
+			"descriptionDialog": {
+				"title": "Update description"
+			},
+			"error": {
+				"onUpdateDescription": "Could not update description!"
+			},
+			"gdprNoData": "Inga nämnder finns skapade!"
+		},
+		"generalPropertiesTitle": "Basic settings",
+		"infoPagePropertiesTitle": "Info page settings",
+		"adminIntegration": {
+			"properties": {
+				"title": "Integrations"
+			},
+			"noIntegration": "No integrations",
+			"integrationOption": {
+				"missingTitle": "Missing title"
+			},
+			"addNew": "Add integration",
+			"addNewDisabled": "Already added",
+			"activeIntegrations": "Active integrations",
+			"availableIntegrations": "Available integrations"
+		},
+		"adminFollowUp": {
+			"properties": {
+				"title": "User survey",
+				"description": "Send a short form to users some time after submitting the e-service where they can rate their experience.",
+				"activation": "Activation",
+				"averageTreatmentTime": "Average treatment time (days)"
+			},
+			"activation": {
+				"none": "None (disabled)",
+				"integration": "Integration (support required)",
+				"manual": "Manual"
+			},
+			"information": "The user survey will be sent 14 days after the specified processing time."
+		},
+		"adminDisplayRule": {
+			"properties": {
+				"title": "Display rules"
+			},
+			"title": "Display rules",
+			"helpText": "Show field depending on what the user entered in previous fields",
+			"addDisplayRule": "Add a display rule",
+			"and": "And",
+			"or": "Or",
+			"not": "Not",
+			"noDisplayRule": "No display rules",
+			"DisplayRuleOrg": "Display rule",
+			"DisplayRuleMetaData": "Display rule metadata",
+			"displayRuleOption": {
+				"missingTitle": "Missing title"
+			},
+			"queryPrefix": "Show if",
+			"querySuffix": "following rules are true",
+			"conditionText": {
+				"items": "Displayed if option {0} {1}",
+				"single": "Displayed if {0} {1}"
+			}
+		},
+		"adminIntegrationEmail": {
+			"name": "Email",
+			"description": "Automatically send out an e-mail to any recipient after submit.",
+			"create": "Add email",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Enter a title for integration",
+				"subject": "Subject",
+				"subjectHelpText": "Enter subject fields in email",
+				"sender": "Sender",
+				"senderHelpText": "Enter sender",
+				"receiver": "Receiver",
+				"receiverHelpText": "Enter email to recipient",
+				"attachFiles": "Attach files to email",
+				"body": "Message",
+				"bodyHelpText": "Enter a message",
+				"formFieldReceivers": "Select fields from the e-service for email notification",
+				"receiverError": "One receiver must be selected or enrolled."
+			},
+			"confirmDelete": {
+				"title": "Delete email Integration?",
+				"text": "Are you sure you want to delete the email integration?"
+			},
+			"confirmClose": {
+				"title": "Changes in email integration",
+				"text": "There are changes in the email integration. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminIntegrationOnPrem": {
+			"create": "Create",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Enter a title for integration",
+				"formFieldReceivers": "Select fields from the e-service for onprem notification",
+				"receiverError": "One receiver must be selected or enrolled.",
+				"datasourcename": "Link to on prem data"
+			},
+			"confirmDelete": {
+				"title": "Delete onprem Integration?",
+				"text": "Are you sure you want to delete the onprem integration?"
+			},
+			"confirmClose": {
+				"title": "Changes in onprem integration",
+				"text": "There are changes in the onprem integration. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminIntegrationNavetFardtjanst": {
+			"create": "Create",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"modalTitle": "Edit navet integration",
+			"description": "Use this integration to automatically transfer fields in the e-service to navet.",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Integration display name, only visible in admin",
+				"matterType": "Type of application",
+				"exportedFields": "Field to become exported to Navet",
+				"exportedFieldsDuplicate": "You have selected several fields with the name \"{fieldName}\". Navet cannot handle multiple fields with the same name."
+			},
+			"matterType": {
+				"ftj": "Färdtjänst",
+				"rftj": "Riksfärdtjänst"
+			},
+			"confirmDelete": {
+				"title": "Remove the integration?",
+				"text": "Are you sure? All data will become deleted."
+			},
+			"confirmClose": {
+				"title": "Changes in integration",
+				"text": "There are changes in the integration. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminIntegrationEcosIntegration": {
+			"title": "Ecos integration",
+			"description": "Use the ecos integration for heat pumps",
+			"create": "Create",
+			"modalTitle": "Edit ecos integration",
+			"listDefaultTitle": "-- No connection --",
+			"ecosPartField": "Data field in ecos part",
+			"ecosPartFieldHelpText": "Select which data field in ecos part that should receive the value of this field",
+			"templateRole": "Role/type",
+			"templateRoleHelpText": "Select which role/type in the template this field should be assign to",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Enter a title for the integration (only visible to administrators)",
+				"template": "Template",
+				"templateHelpText": "Select which template the ecos integration should use. Can not be changed after integration is created"
+			},
+			"confirmDelete": {
+				"title": "Remove ecos integration?",
+				"text": "Are you sure you want to remove the ecos integration? All field connections will be removed."
+			}
+		},
+		"adminIntegrationUserWifiConnections": {
+			"title": "Student WiFi integration",
+			"description": "Use this integration to handle students WiFi",
+			"create": "Create",
+			"modalTitle": "Edit student WiFi integration",
+			"listDefaultTitle": "-- No connection --",
+			"dataField": "Data field",
+			"dataFieldHelpText": "Select which data field should receive this fields value",
+			"dataTableField": "Connect table to elev WiFi",
+			"dataTableFieldHelpText": "Activate to  connect fields inside the table to elev WiFi",
+			"insideTableWithoutIntegration": "To connect a field inside a table you first have to connect the table.",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Select a title for the integration (only visible to administrators)"
+			},
+			"confirmDelete": {
+				"title": "Remove student WiFi integration?",
+				"text": "Are you sure you want to delete student WiFi integration? All information about student WiFi will be deleted!"
+			}
+		},
+		"adminIntegrationEmailNotification": {
+			"name": "E-mail Notification",
+			"create": "Create email notification",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"subject": "Subject (optional)",
+			"subjectPlaceholder": "Message regarding %e-service% received.",
+			"body": "Body (optional)",
+			"description": "This integration will automatically send out an e-mail notification to the end user.",
+			"confirmDelete": {
+				"title": "Do you want to remove the integrationen?",
+				"text": "Do you really want to remove the integration!"
+			},
+			"modalTitle": "Edit e-mail",
+			"confirmClose": {
+				"title": "Changes",
+				"text": "The integration has unsaved changes, do you still want to close?"
+			}
+		},
+		"adminIntegrationPublic360": {
+			"create": "Create",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"modalTitle": "Edit Public 360 integration",
+			"description": "Use the Public 360 integration to automatically transfer submitted data to the public 360 system.",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Enter a title for integration",
+				"caseTitle": "Title of the case for public 360",
+				"caseTitleHelpText": "Enter a title for the matter to public 360",
+				"keyWord": "Keyword",
+				"keyWordHelpText": "Enter a keyword for the case",
+				"multipleEnterprises": "Send to multiple recipients",
+				"enterprise": "Department that will have access to the case in public 360",
+				"accessGroup": "The group that will have access to the matter in public 360",
+				"journal": "Journal that will have access to the case in public 360",
+				"documentCategory": "Documents category that the case will have on documents in public 360",
+				"documentArchive": "Archiving that the case will have in public 360",
+				"documentStatus": "Status of the documents that will be submitted for the case in public 360",
+				"confidential": "The created matter must be classified in public 360",
+				"addContact": "Contact details must be included",
+				"caseRole": "Case role"
+			},
+			"confirmDelete": {
+				"title": "Delete public 360-Integration?",
+				"text": "Are you sure you want to delete public 360-integration? All information about sharepoint integration will be deleted!"
+			},
+			"confirmClose": {
+				"title": "Changes in public 360-integration",
+				"text": "There are changes in public 360-integration. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminIntegrationSharepoint": {
+			"create": "Create",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"sharepointurl": "Sharepoint url : ",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Enter a title for integration",
+				"siteTitle": "Sharepoint title",
+				"siteTitleHelpText": "Enter a title for sharepoint site.<br />Note that if this sharepoint site not exist, it will be created.",
+				"userEmail": "Email to owner of the sharepoint site.",
+				"userEmailHelpText": "Email to owner management object",
+				"anonymizeTitle": "Anonymize the title in the SharePoint list"
+			},
+			"confirmDelete": {
+				"title": "Delete sharepoint Integration?",
+				"text": "Are you sure you want to delete sharepoint integration? All information about sharepoint integration will be deleted!"
+			},
+			"confirmClose": {
+				"title": "Changes in sharepoint integration",
+				"text": "There are changes in sharepoint integration. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminIntegrationCreateSharepointSite": {
+			"create": "Create",
+			"cancel": "Cancel",
+			"title": "Create SharePoint site",
+			"siteTitle": "Name of website in Sharepoint",
+			"siteTitleHelpText": "Enter the name of the site in SharePoint",
+			"userEmail": "Email to owner of the website in Sharepoint",
+			"userEmailHelpText": "Enter the email address of the person who will own the website",
+			"alreadyExists": "Already exists."
+		},
+		"adminIntegrationCreateSharepointList": {
+			"create": "Create",
+			"cancel": "Cancel",
+			"title": "Create SharePoint list",
+			"listTitle": "Name on list in Sharepoint",
+			"listTitleHelpText": "You create a new list in the website "
+		},
+		"adminIntegrationAdvancedSharepoint": {
+			"create": "Create",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"modalTitle": "Edit Sharepoint integration",
+			"description": "Use the Sharepoint integration to send submitted data to a Sharepoint list.",
+			"sharepointurl": "Advanced Sharepoint url : ",
+			"tabSettings": "Settings",
+			"tabConnector": "Connector",
+			"fieldMapping": "Form fields",
+			"contactInfoMapping": "Contact information",
+			"contactSecondInfoMapping": "Additional contact information",
+			"userLegitimationMapping": "User login information",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Enter a title for integration",
+				"siteTitle": "Advanced Sharepoint title",
+				"addSiteTitle": "Create new website",
+				"siteList": "List, SharePoint Online",
+				"addSiteList": "Create new list",
+				"siteTitleHelpText": "Enter a title for sharepoint site.<br />Note that if this sharepoint site not exist, it will be created.",
+				"uploadFile": "Do not upload form-pdf to sharepoint",
+				"anonymizeTitle": "Anonymize the title in the SharePoint list",
+				"list": {
+					"fieldTitle": "E-service field",
+					"addressInfoTitle": "Contact information",
+					"sharepointColumnTitle": "Sharepoint column",
+					"addNewConnection": "Add new connection"
+				},
+				"contactInfo": {
+					"firstName": "First name",
+					"lastName": "Last name",
+					"address": "Address",
+					"postalNumber": "Postal number",
+					"city": "City",
+					"phoneNumber": "Phone number",
+					"email": "E-mail",
+					"socialSecurityNumber": "Social security number",
+					"fullName": "Full name",
+					"fullAddress": "Full address"
+				},
+				"userLegitimation": {
+					"userLegitimationInfo": "User login information (Name, login method och time)",
+					"refId": "Reference ID",
+					"name": "Name",
+					"legitimizedMethod": "Login method",
+					"legitimizedDateTime": "Login time"
+				}
+			},
+			"fieldIntegration": {
+				"title": "Connect this field to a column in Sharepoint",
+				"label": "This field"
+			},
+			"confirmDelete": {
+				"title": "Delete advanced sharepoint Integration?",
+				"text": "Are you sure you want to delete advanced sharepoint integration? All information about sharepoint integration will be deleted!"
+			},
+			"confirmClose": {
+				"title": "Changes in advanced sharepoint integration",
+				"text": "There are changes in advanced sharepoint integration. Changes will be lost if you close. Do you want to close?"
+			},
+			"columnXHasNDuplicates": "The column \"{0}\" gets it value set in {1} connections.",
+			"columnDuplicateTooltip": "The selected column is already used in other connections."
+		},
+		"adminDisplayRuleDialog": {
+			"titleQuestion": "Questions",
+			"titleResponse": "Responses",
+			"allowedLoginMethods": "!!!!!!!!!!!",
+			"create": "Create",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"update": "Update",
+			"title": "Display rule",
+			"field": {
+				"title": "Title",
+				"titleHelpText": "Name your rule as the follow-up question will listen to"
+			},
+			"confirmDelete": {
+				"title": "Delete display rule",
+				"text": "Are you sure you want to delete diplay rule? There may be questions that use this rule. All information about diplay rule will be deleted!"
+			},
+			"confirmClose": {
+				"title": "Changes in diplay rule",
+				"text": "There are changes in diplay rule. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminPm3Manager": {
+			"title": "Handle managementobjekt",
+			"pm3": {
+				"title": "Name",
+				"defaultTitle": "- New management object"
+			},
+			"create": "Create managementobjekt",
+			"close": "Close",
+			"delete": "Delete",
+			"cancel": "Cancel",
+			"save": "Save",
+			"search": "Search for management object...",
+			"error": {
+				"onDeletePm3": {
+					"general": "Could not delete management object!",
+					"restricted": "Unable to delete a management object used by other form."
+				},
+				"onCreatePm3": "Could not create management object, title is missing.",
+				"onSavePm3": {
+					"general": "Could not save management object!",
+					"missing": "Could not save management object, title is missing."
+				}
+			},
+			"confirmDelete": {
+				"title": "Delete management object?",
+				"text": "Are you sure you wan't to delete the management object \"{0}\"? All information on the management object will be deleted!"
+			},
+			"confirmClosePm3": {
+				"title": "Changes in management object/objects",
+				"text": "There are management object/objects that have been changed. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminReceiverManager": {
+			"title": "Manage receivers",
+			"create": "Create receiver",
+			"delete": "Delete",
+			"search": "Search for receivers...",
+			"save": "Save",
+			"cancel": "Cancel",
+			"close": "Close",
+			"receiver": {
+				"title": "Name",
+				"path": "Path",
+				"defaultTitle": "- New receiver",
+				"defaultPath": "http://www.umea.se/kommun",
+				"adminTitle": "Admin name"
+			},
+			"error": {
+				"onDeleteReceiver": {
+					"general": "Could not delete receiver!",
+					"restricted": "Unable to delete a receiver used by other form."
+				},
+				"onCreateReceiver": "Could not create receiver, title is missing.",
+				"onSaveReceiver": {
+					"general": "Could not save receiver!",
+					"missingTitle": "Could not save receiver, title is missing.",
+					"missingPath": "Could not save receiver, path is missing."
+				}
+			},
+			"confirmDelete": {
+				"title": "Delete receiver?",
+				"text": "Are you sure you wan't to delete the receiver \"{0}\"? All information on the receiver will be deleted!"
+			},
+			"confirmCloseReceiver": {
+				"title": "Changes in receiver/receivers",
+				"text": "There are receiver/receivers that have been changed. Changes will be lost if you close. Do you want to close?"
+			}
+		},
+		"adminGdprManager": {
+			"title": "Manage personal data controller",
+			"gdpr": {
+				"title": "Name",
+				"defaultTitle": "- New fixme",
+				"defaultUrl": "http://www.umea.se/umeakommun",
+				"url": "Link",
+				"adminTitle": "Admin name"
+			},
+			"create": "Create personal data controller",
+			"close": "Close",
+			"delete": "Delete",
+			"cancel": "Cancel",
+			"save": "Save",
+			"search": "Search for personal data controller...",
+			"error": {
+				"onDeleteGdpr": {
+					"general": "Could not delete personal data controller!",
+					"restricted": "Unable to delete a personal data controller used by other form."
+				},
+				"onCreateGdpr": {
+					"missingTitle": "Could not create personal data controller, title is missing.",
+					"missingUrl": "Could not save personal data controller, path is missing."
+				},
+				"onSaveGdpr": {
+					"general": "Could not save personal data controller.",
+					"missingTitle": "Could not save personal data controller, title is missing.",
+					"missingUrl": "Could not save personal data controller, path is missing."
+				}
+			}
+		},
+		"adminLifeSituationManager": {
+			"title": "Handle life situation",
+			"pm3": {
+				"title": "Name",
+				"defaultTitle": "- New life situation"
+			},
+			"create": "Create life situation",
+			"close": "Close",
+			"delete": "Delete",
+			"cancel": "Cancel",
+			"save": "Save",
+			"search": "Search for life situation...",
+			"error": {
+				"onDeleteLifeSituation": {
+					"general": "Could not delete life situation!",
+					"restricted": "Unable to delete a life situation used by other form."
+				},
+				"onCreateLifeSituation": "Could not create life situation, title is missing.",
+				"onSaveLifeSituation": {
+					"general": "Could not save life situation!",
+					"missing": "Could not save life situation, title is missing."
+				}
+			},
+			"confirmDelete": {
+				"title": "Delete life situation?",
+				"text": "Are you sure you wan't to delete the life situation \"{0}\"? All information on the life situation will be deleted!"
+			}
+		},
+		"adminEcosManager": {
+			"title": "Edit Ecos template",
+			"save": "Save",
+			"cancel": "Cancel",
+			"close": "Close",
+			"create": "Create Ecos template",
+			"delete": "Delete",
+			"search": "Search for Ecos templates",
+			"municipalityCode": "2480",
+			"eServiceConnection": "The template is linked to:",
+			"eServiceConnectionDescription": "You can not edit a template that is linked to one or multiple e-services.",
+			"confirmChangeEcosTemplate": {
+				"text": "Do you want to change the template for this e-service?",
+				"title": "Changes in Ecos"
+			},
+			"confirmCloseEcos": {
+				"title": "Changes in Ecos",
+				"text": "There are Ecos that have been changed. Changes will be lost if you close. Do you want to close?"
+			},
+			"confirmDelete": {
+				"title": "Delete Ecos?",
+				"text": "Are you sure you wan't to delete the Ecos template \"{0}\"? All information on the Ecos will be deleted!"
+			},
+			"error": {
+				"onDeleteEcos": {
+					"general": "Could not delete Ecos!",
+					"restricted": "Unable to delete a Ecos used by other form."
+				},
+				"onCreateEcos": "Could not create Ecos, title is missing.",
+				"onSaveEcos": {
+					"general": "Could not save Ecos!",
+					"missing": "Could not save Ecos, title is missing."
+				}
+			},
+			"ecos": {
+				"defaultTitle": "- New Ecos",
+				"title": "Name",
+				"caseSubTitle": "Subheading in Ecos",
+				"role": "Role",
+				"addressType": "Type of address",
+				"diaryplan": "Diary plan designation",
+				"administratorGroup": "Administrative group",
+				"municipalityCode": "Kommun code",
+				"processType": "Title",
+				"occurrenceType": "Event type",
+				"notificationType": "Action type, pdf of the e-service",
+				"documentType": "Action Type, Attachments"
+			}
+		},
+		"adminListSidebar": { "title": "Administration" },
+		"adminCategoryManager": {
+			"title": "Handle category",
+			"pm3": {
+				"title": "Name",
+				"defaultTitle": "- New category"
+			},
+			"create": "Create category",
+			"close": "Close",
+			"delete": "Delete",
+			"cancel": "Cancel",
+			"save": "Save",
+			"search": "Search for category...",
+			"error": {
+				"onDeleteCategory": {
+					"general": "Could not delete category!",
+					"restricted": "Unable to delete a category used by other form."
+				},
+				"onCreateCategory": "Could not create category, title is missing.",
+				"onSaveCategory": {
+					"general": "Could not save category!",
+					"missing": "Could not save category, title is missing."
+				}
+			},
+			"confirmDelete": {
+				"title": "Delete category?",
+				"text": "Are you sure you wan't to delete the category \"{0}\"? All information on the category will be deleted!"
+			}
+		},
+		"adminListForms": {
+			"title": "Manage e-services",
+			"create": {
+				"add": "Create",
+				"eservice": "New e-service",
+				"link": "New link to external",
+				"infoPage": "new info page"
+			},
+			"table": {
+				"headers": {
+					"text1": "Id",
+					"text2": "Title",
+					"text3": "Category",
+					"text4": "Status",
+					"text5": "Modified",
+					"text6": "Submits last week"
+				},
+				"pagination": {
+					"show": "Show",
+					"rowsperpage": "rows per page",
+					"labelof": " of ",
+					"All": "All"
+				},
+				"nodata": "Sorry, nothing to display here :(",
+				"noresult": {
+					"labelpart1": "Your search for ",
+					"labelpart2": " found no results."
+				},
+				"clone": "Clone e-service",
+				"eService": {
+					"emptyTitle": "This e-service does not have a title"
+				}
+			},
+			"confirmArchivingEServiceTitle": "Archive e-service",
+			"confirmArchivingEService": "Do you really want to archive the e-service \"{0}\"?",
+			"archive": "Archive",
+			"edit": "Edit",
+			"editInNewTab": "Edit in new tab",
+			"filter": "Filter",
+			"pm3": "PM3",
+			"receiver": "Receiver",
+			"integrations": "Integration",
+			"gdpr": "GDPR",
+			"open": "Open",
+			"lastSave": "Last saved",
+			"search": {
+				"label": "Search",
+				"placeholder": "Search for e-services..."
+			},
+			"addEServiceDialog": {
+				"title": "Create new e-service?",
+				"description": "Are you sure you want to create a new e-service?",
+				"confirm": "Create e-service"
+			},
+			"addLinkExternalDialog": {
+				"title": "Create new link to e-service?",
+				"description": "Are you sure you want to create a new link to e-service?",
+				"confirm": "Create linked e-service"
+			},
+			"addInfoPageDialog": {
+				"title": "Create new info page?",
+				"description": "Are you sure you want to create a new info page?",
+				"confirm": "Create info page"
+			}
+		},
+		"adminListSettings": {
+			"title": "Settings",
+			"editError": "Found {0} problems"
+		},
+		"adminListIntegrations": {
+			"title": "Integrations",
+			"tabs": { "ecos": "Ecos templates" }
+		},
+		"adminBanner": {
+			"title": "Warning message",
+			"description": "Show a warning message to all users of the platform.",
+			"active": "Show warning message",
+			"save": "Save changes",
+			"lastModified": "Last modified {0}",
+			"confirm": {
+				"title": "how warning message",
+				"text": "Are you sure you want to show a warning message to all users of the platform?"
+			}
+		},
+		"formValidationSummary": {
+			"error": "There is {count} error in the form | There are {count} errors in the form",
+			"resolution": "Please review this before continuing"
+		},
+		"tCookieBanner": {
+			"title": "We use cookies",
+			"text": "This site uses cookies for analytics and personalized content. By clicking OK, you agree to this use. ",
+			"urlText": "For more information",
+			"button": "OK, I understand"
+		},
+		"tConfirmDialog": {
+			"cancelDefault": "Cancel",
+			"confirmDefault": "Yes"
+		}
+	}
+}

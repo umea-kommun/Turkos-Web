@@ -1,0 +1,11 @@
+// Defining base font size
+// The default font size for html is 16px
+$base-size: 16;
+
+//Function to convert px value into rem
+//You can replace rem with any other value you want (rem is most preferred value for web)
+//To import it in a component in the field folder use: @import '../../themes/mixins.scss';
+//´The function is then called with: font-size: size(18); for a 18px sized text
+@function size($target, $context: $base-size) {
+    @return calc($target / $context) * 1rem;
+}

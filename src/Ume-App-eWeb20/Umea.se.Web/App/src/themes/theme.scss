@@ -1,0 +1,292 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+/**
+ * Vuetify theme for Umeå kommun. Modifies default material design theme.
+ */
+
+h1 {
+	font-size: size(30);
+}
+
+h2 {
+	font-size: size(24);
+	line-height: 1.5;
+}
+
+p {
+	margin-bottom: 16px;
+}
+
+body .grecaptcha-badge {
+	display: none !important;
+}
+html {
+	font-family: $font-family !important;
+}
+.v-application,
+.v-overlay-container {
+	font-family: $font-family;
+	line-height: 1.5;
+	a {
+		color: #333 !important;
+	}
+	a:hover {
+		color: rgba(#555555, 0.7);
+	}
+	.pb-2 {
+		padding-bottom: 8px !important;
+	}
+	.pt-3 {
+		padding-top: 16px !important;
+	}
+	.mt-4 {
+		margin-top: 24px !important;
+	}
+
+	.text-h1,
+	.text-h2,
+	.text-h3,
+	.text-h4,
+	.text-h5,
+	.text-h6,
+	.text-caption,
+	.text-subtitle-1 {
+		font-family: $font-family !important;
+	}
+}
+
+/** Overwrite css manually in some cases
+ * Icons inside button with left or right should have less margin, original value was margin-*: 16px
+ * Reference file: node_modules/vuetify/stylus/components/_buttons.styl
+ */
+.v-btn {
+	&--size-small {
+		font-size: size(12);
+		line-height: size(12) !important;
+	}
+	&--size-default {
+		font-size: size(14);
+		line-height: size(14) !important;
+	}
+	&__content {
+		display: flex;
+		align-items: center;
+	}
+
+	.v-icon {
+		&--right,
+		&.right {
+			margin-left: 6px;
+		}
+		&--left,
+		&.left {
+			margin-right: 6px;
+		}
+	}
+}
+
+.theme--light.v-chip {
+	&--removable {
+		background-color: rgba(#00a01e, 0.2);
+	}
+}
+
+.v-card__title {
+	.theme--light.v-icon {
+		color: #111;
+	}
+}
+
+.v-text-field__slot {
+	.theme--light.v-label {
+		color: rgba(0, 0, 0, 0.55);
+	}
+}
+
+.app-form .extra-info {
+	.v-icon.v-theme--umeaTheme {
+		color: rgba(0, 0, 0, 0.55);
+	}
+}
+
+.v-list--disabled {
+	a {
+		color: #999;
+		background: #f2f2f2;
+	}
+}
+
+.v-text-field .v-input__append-inner {
+	padding-left: 20px;
+}
+.v-field {
+	--v-field-padding-start: 0px;
+	font-size: size(16) !important;
+}
+
+.v-list__tile__action .v-input--selection-controls {
+	padding-top: 13px;
+}
+
+/* Space between options in checkbox/radio */
+.field-check-box,
+.field-radio-button {
+	.v-selection-control {
+		align-items: flex-start;
+		.v-selection-control__wrapper{
+			margin: 3px 0;
+		}
+		.v-label {
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+	}
+}
+
+.v-btn {
+	margin: 6px 8px;
+
+	&--disabled {
+		opacity: 0.8 !important;
+		&.text-primary {
+			color: rgba(var(--v-theme-on-surface), 0.26) !important;
+		}
+	}
+}
+.v-tabs {
+	.v-btn {
+		border-radius: 0;
+	}
+}
+
+.field-date-picker,
+.field-text-box,
+.field-text-area,
+.field-select-list,
+.field-text-search-box,
+.admin-text-box,
+.user-contact-info-card,
+.form-contact-info {
+	&:not(.admin-mode) {
+		.v-text-field .v-input__details {
+			padding: 0;
+			margin-bottom: 4px;
+		}
+		.v-input .v-field__field {
+			--v-input-padding-top: 5px;
+			padding-top: var(--v-input-padding-top, 8px);
+		}
+	}
+}
+
+.v-field__input .v-autocomplete__selection,
+.v-field__input .v-select__selection {
+	padding-top: 6px !important;
+	padding-bottom: 10px !important;
+	margin-left: 8px !important;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.v-autocomplete input {
+	margin-top: 1px !important;
+}
+
+.overflow-visible {
+	overflow: visible;
+}
+
+.v-container {
+	max-width: 1500px !important;
+
+	&.full-width {
+		padding: 0;
+		max-width: none !important;
+	}
+}
+
+.fullscreen-fixed {
+	position: fixed;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	display: flex;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #ffffff;
+	z-index: 10000;
+
+	.v-container {
+		max-width: none !important;
+	}
+}
+
+.v-messages {
+	&__message-help {
+		strong {
+			display: contents;
+		}
+	}
+}
+
+.input-group__error,
+.v-alert {
+	&.text-error {
+		color: $error !important;
+	}
+}
+
+.v-input__control {
+	.v-selection-control--error:not(.v-selection-control--disabled) .v-label {
+		color: $error;
+	}
+}
+
+.base-title-description {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		line-height: 1.5;
+	}
+	ul,
+	ol {
+		padding-left: size(24);
+	}
+}
+
+.v-snackbar__wrapper {
+	min-width: auto !important;
+}
+
+.tox.tox-silver-sink.tox-tinymce-aux {
+	position: relative !important;
+	z-index: 10055 !important;
+}
+.mce-menu {
+	position: fixed !important;
+}
+
+/* Forces line breaks if v-select item is too long to fit in one line */
+.v-select-menu-content .v-list-item-title {
+	word-break: break-word;
+	word-wrap: normal;
+	white-space: normal;
+}
+
+.admin-list-context-menu {
+	/* Fix spacing in admin list context menus */
+	.v-list-item__spacer {
+		display: none;
+	}
+}
+
+.v-data-table {
+	font-size: size(16);
+}
